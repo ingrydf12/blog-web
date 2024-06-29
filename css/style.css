@@ -21,6 +21,7 @@ header{
     height: 55rem;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 3rem;
 }
 
 header::before{
@@ -58,11 +59,40 @@ a{
     color: white;
 }
 
-#blog-title{
+.blog-title{
     padding-left: 4rem;
     margin: 3.12rem;
     color: white;
 }
+
+.posts{
+    padding-left: 4rem;
+}
+
+.card{
+    display: flex;
+    width: 40rem;
+    height: 27rem;
+    align-items: center;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 1rem;
+    margin: 1.2rem;
+}
+
+.card img{
+    width: 15rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 2rem;
+    margin: 1.2rem;
+}
+
+.description-card{
+    font-weight: 400;
+}
+
+/* Footer */
 
 #final{
     background-image: url(https://i.pinimg.com/564x/b5/e8/9a/b5e89ac86879eb21599a6bc7aaa7cf17.jpg);
@@ -110,10 +140,4 @@ footer {
 
 .sub-final{
     font-weight: 400;
-}
-
-.grid-post {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
 }
