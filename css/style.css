@@ -111,3 +111,9 @@ footer {
 .sub-final{
     font-weight: 400;
 }
+
+.grid-post {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+}
