@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px; 
+}
+
+body{
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.2rem 6.6rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-image: url(/assets/coding.gif);
+    height: 0.8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.72) 100%), url(<path-to-image>) lightgray 50%
+}
