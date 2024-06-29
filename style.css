@@ -67,3 +67,25 @@ a{
 .blog-title{
     margin: 3.12rem 0;
 }
+
+#final{
+    background-image: url(https://i.pinimg.com/564x/b5/e8/9a/b5e89ac86879eb21599a6bc7aaa7cf17.jpg);
+}
+
+footer {
+    background: #000F16;
+    display: flex;
+    padding: 20px; /* Ajuste os valores de padding */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+#final{
+    color: white;
+}
+
+.title-final{
+    font-size: 1.2rem;
+}
