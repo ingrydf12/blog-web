@@ -15,9 +15,9 @@ body{
 }
 
 
-header{
+header {
     position: relative;
-    background-image: url(assets/coding.gif);
+    background-image: url('../assets/coding.gif'); /* Ajuste o caminho se o CSS estiver em uma pasta separada */
     height: 55rem;
     background-repeat: no-repeat;
     background-size: cover;
